@@ -21,5 +21,10 @@ export default defineConfig([
 		semi: true,
 		jsx: false,
 		commaDangle: "never"
-	})
+	}),
+	{
+		rules: {
+			"@stylistic/max-statements-per-line": "off"
+		}
+	}
 ]);

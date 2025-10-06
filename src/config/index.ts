@@ -51,8 +51,18 @@ function getToken() {
 	return getValueFromKey("TOKEN", true);
 }
 
+function getApplicationId() {
+	return getValueFromKey("APPLICATION_ID", true);
+}
+
+function getGuildId() {
+	return getValueFromKey("GUILD_ID", true);
+}
+
 export default {
 	ENVIRONMENT: environment,
 
-	TOKEN: getToken()
+	TOKEN: getToken(),
+	APPLICATION_ID: getApplicationId(),
+	GUILD_ID: getGuildId()
 };
