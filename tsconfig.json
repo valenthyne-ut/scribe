@@ -45,6 +45,7 @@
 	},
 	"exclude": [
 		"eslint.config.mts",
-		"dist"
+		"dist",
+		"whisper"
 	]
 }
