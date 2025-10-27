@@ -20,7 +20,8 @@ export default defineConfig([
 		quotes: "double",
 		semi: true,
 		jsx: false,
-		commaDangle: "never"
+		commaDangle: "never",
+		braceStyle: "1tbs"
 	}),
 	{
 		rules: {
